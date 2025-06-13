@@ -17,9 +17,9 @@ async function fixDateFields() {
       ]
     );
 
-    console.log(`✅ Updated ${result.modifiedCount} documents`);
+    console.log(` Updated ${result.modifiedCount} documents`);
   } catch (error) {
-    console.error('❌ Error fixing date fields:', error);
+    console.error(' Error fixing date fields:', error);
   } finally {
     await mongoose.disconnect();
   }
