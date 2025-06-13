@@ -36,3 +36,4 @@ app.get('/', (req, res) => {
   res.send('Employee Attendance Tracker API is running!');
 });
 
+module.exports = app;
